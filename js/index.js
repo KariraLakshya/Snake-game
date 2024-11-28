@@ -5,7 +5,7 @@ const gameoversound = new Audio('https://github.com/KariraLakshya/Snake-game/raw
 const movesound = new Audio('https://github.com/KariraLakshya/Snake-game/raw/refs/heads/main/move.mp3');
 const musicsound = new Audio('https://github.com/KariraLakshya/Snake-game/raw/refs/heads/main/music.mp3');
 let lastPainttime = 0;
-let speed = 16;
+let speed = 8;
 let score = 0;
 let snakeArr = [
     { x: 13, y: 15 }
