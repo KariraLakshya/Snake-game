@@ -1,9 +1,9 @@
 //game constants and variables
 let inputDir = { x: 0, y: 0 };
-const foodsound = new Audio('food.mp3');
-const gameoversound = new Audio('gameover.mp3');
-const movesound = new Audio('move.mp3');
-const musicsound = new Audio('music.mp3');
+const foodsound = new Audio('https://github.com/KariraLakshya/Snake-game/raw/refs/heads/main/food.mp3');
+const gameoversound = new Audio('https://github.com/KariraLakshya/Snake-game/raw/refs/heads/main/gameover.mp3');
+const movesound = new Audio('https://github.com/KariraLakshya/Snake-game/raw/refs/heads/main/move.mp3');
+const musicsound = new Audio('https://github.com/KariraLakshya/Snake-game/raw/refs/heads/main/music.mp3');
 let lastPainttime = 0;
 let speed = 16;
 let score = 0;
